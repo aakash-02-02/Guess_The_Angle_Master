@@ -110,6 +110,7 @@ function update_end_game() {
 function setlevel(e) {
     level_number.innerHTML = e.target.value;
     lvl = e.target.value;
+    console.log(lvl)
 }
 
 function rotation_start() {
